@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predication.Clandro", "Predication.Clandro\Predication.Clandro.csproj", "{F4D4BDE4-52D2-4BFF-A7D4-06AE74927FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predication.Clandro.TDD", "Predication.Clandro.TDD\Predication.Clandro.TDD.csproj", "{03F672B6-089C-45AA-89AB-1DA7C0F7988A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E78A7A0-7DDC-4F4C-8D86-017961D27AA6}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Predication.Clandro.vsmdi = Predication.Clandro.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Predication.Clandro.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D4BDE4-52D2-4BFF-A7D4-06AE74927FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D4BDE4-52D2-4BFF-A7D4-06AE74927FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D4BDE4-52D2-4BFF-A7D4-06AE74927FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D4BDE4-52D2-4BFF-A7D4-06AE74927FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F672B6-089C-45AA-89AB-1DA7C0F7988A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F672B6-089C-45AA-89AB-1DA7C0F7988A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F672B6-089C-45AA-89AB-1DA7C0F7988A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F672B6-089C-45AA-89AB-1DA7C0F7988A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
