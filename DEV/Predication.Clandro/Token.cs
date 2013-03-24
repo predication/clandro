@@ -13,15 +13,19 @@ namespace Predication.Clandro
         public int LineNumber { get; private set; }
         public string Text { get; private set; }
         public string Type { get; private set; }
-        public bool IsWhitespace { get; private set; }
 
-        public Token(int lineNumber, int linePosition, string text, string type, bool isWhitespace)
+        public Token(string type, string text)
+        {
+            Text = text;
+            Type = type;
+        }
+
+        public Token(int lineNumber, int linePosition, string text, string type)
         {
             LineNumber = LineNumber;
             LinePosition = linePosition;
             Text = text;
             Type = type;
-            IsWhitespace = isWhitespace;
         }
     }
 }
